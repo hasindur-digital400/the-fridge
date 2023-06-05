@@ -1,0 +1,28 @@
+@import '../styles/colors';
+
+.form-field {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+
+    &__label {
+        color: $primary-color;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        letter-spacing: -0.03em;
+        line-height: 17px;
+        text-transform: capitalize;
+    }
+    
+    &__input {
+        background: #FFFFFF;
+        border-radius: 4px;
+        border: 2px solid #CCD6E1;
+        box-sizing: border-box;
+        height: 40px;
+        padding: 6px;
+        width: 290px;
+        font-family: 'Inter', sans-serif;
+    }
+}

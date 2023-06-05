@@ -1,0 +1,34 @@
+@import "../styles/colors";
+
+.banner {
+    flex: 39.22%;
+}
+
+.heading-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 90px 0px 70px;
+    gap: 12px;
+
+    &__heading {
+        color: $heading-text-color;
+        font-size: 36px;
+        font-weight: 800;
+        letter-spacing: -0.03em;
+        line-height: 44px;
+        text-align: center;
+    }
+    
+    &__tagline {
+        margin: 0px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;
+        letter-spacing: -0.03em;
+        color: $secondary-color;
+    }
+}

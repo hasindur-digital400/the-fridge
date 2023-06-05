@@ -1,0 +1,46 @@
+@import "../../styles/colors";
+
+.add-item {
+    background: #FFFFFF;
+    border-radius: 8px;
+    border: 1px solid #E3E9F1;
+    box-sizing: border-box;
+    height: 170px;
+    left: 253px;
+    padding: 40px 40px 42px;
+    position: absolute;
+    top: 238px;
+    width: 934px;
+    z-index: 2;
+
+    &__info {
+        color: $secondary-color;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 15px;
+        text-transform: capitalize;
+        margin-top: 12px;
+    }
+}
+
+.add-item-form {
+    display: flex;
+    gap: 22px;
+    align-items: flex-end;
+
+    &__button {
+        background: $cta-button-color;
+        border-radius: 4px;
+        border: none;
+        box-sizing: border-box;
+        color: #FFFFFF;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 700;
+        height: 40px;
+        line-height: 16px;
+        text-align: center;
+        width: 230px;
+    }
+}
